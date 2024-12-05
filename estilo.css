@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "dm";
+    src: url(font/DMSans-VariableFont_opsz\,wght.ttf);
+}
+
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding-top: 48px;
+}
+a{
+    text-decoration: none;
+    color: #666666;
+    justify-content: space-between;
+}
+header{
+    position: fixed;
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    width: 1535px;
+    padding: 20px 0;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 290px;
+    font-family: "dm";
+    font-size: 13px;
+}
+
+.titulo{
+    font-size: 36px;
+}
