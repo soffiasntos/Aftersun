@@ -175,6 +175,8 @@ nav{
     display: flex;
     justify-content: center;
     position: relative; /* Adiciona posição relativa ao contêiner */
+    align-items: center;
+    margin-bottom: 90px;
 }
 
 .trailer img {
@@ -184,11 +186,26 @@ nav{
 #play {
     height: 50px;
     position: absolute; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
+    top: 46%; 
+    left: 48%; 
+    
     cursor: pointer; 
+    margin-bottom: 400px;
+    transition: transform 0.3s ease-in-out;
 }
 
+#play:hover {
+    transform: scale(1.11);
+   
+  }
 
+  footer{
+    background-color: #2F4157;
+   height: 20px;
+   padding: 5px;
+ 
+   
+  
+   
+  }
 
